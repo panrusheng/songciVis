@@ -4,25 +4,35 @@
 <head>
     <style type="text/css">
         @font-face {  
-            font-family: 'W3';  
-            src:url('./font/华康宋体W3-A.TTF')  
-        } 
-        @font-face {  
             font-family: 'W5';  
-            src:url('./font/华康宋体W5\(P\).TTF')  
-        } 
+            src: url('./font/华康宋体W5\(P\).eot'); /* IE9 兼容模式 */
+            src: url('./font/华康宋体W5\(P\).eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+                    url('./font/华康宋体W5\(P\).woff') format('woff'), /* 现代浏览器 */
+                    url('./font/华康宋体W5\(P\).ttf')  format('truetype'), /* Safari, Android, iOS */
+                    url('./font/华康宋体W5\(P\).svg#grablau') format('svg'); /* Legacy iOS */
+            font-weight: normal;
+            font-style: normal;
+        }
         @font-face {  
             font-family: 'W7';  
-            src:url('./font/华康宋体W7.TTF')  
-        } 
+            src: url('./font/华康宋体W7.eot'); /* IE9 兼容模式 */
+            src: url('./font/华康宋体W7.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+                    url('./font/华康宋体W7.woff') format('woff'), /* 现代浏览器 */
+                    url('./font/华康宋体W7.ttf')  format('truetype'), /* Safari, Android, iOS */
+                    url('./font/华康宋体W7.svg#grablau') format('svg'); /* Legacy iOS */
+            font-weight: normal;
+            font-style: normal;
+        }
         @font-face {  
             font-family: 'W9';  
-            src:url('./font/华康标题宋W9\(P\).TTF')  
-        }  
-        @font-face {  
-            font-family: '楷体';  
-            src:url('./font/经典楷体简.ttf')  
-        } 
+            src: url('./font/华康标题宋W9\(P\).eot'); /* IE9 兼容模式 */
+            src: url('./font/华康标题宋W9\(P\).eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+                    url('./font/华康标题宋W9\(P\).woff') format('woff'), /* 现代浏览器 */
+                    url('./font/华康标题宋W9\(P\).ttf')  format('truetype'), /* Safari, Android, iOS */
+                    url('./font/华康标题宋W9\(P\).svg#grablau') format('svg'); /* Legacy iOS */
+            font-weight: normal;
+            font-style: normal;
+        }
     </style>
     <meta charset="UTF-8">
     <script>
@@ -41,16 +51,7 @@
 </head>
 
 <body style="overflow-x: hidden; margin: 0;">
-    <script>
-        var width = window.screen.availWidth
-        if(width > 1920) {
-            var margin_side = ( parseInt(width) - 1920 ) / 2
-            document.write('<div id="app" style="transform:translateX('+ margin_side +'px)"></div>')
-        }
-        else{
-            document.write('<div id="app"></div>')
-        }
-    </script>
-<script type="text/javascript" src="main.14111c6377720bb42c09.js"></script></body>
+    <div id="app" style = "background: #f3f8f1"></div>
+<script type="text/javascript" src="main.a791bb5a3443d361a5b8.js"></script></body>
 <!-- <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=3HUj5WNYmDXfEaNC6pgyv8xGPypadnwe"></script> -->
 </html>
